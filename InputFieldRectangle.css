@@ -1,0 +1,311 @@
+.share-button-frame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: linear-burn;
+  z-index: 1;
+}
+.x-y-z-info-rectangle-child {
+  height: 74px;
+  width: 665px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.welcome-to-xyz {
+  height: 42px;
+  width: 619px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.x-y-z-info-rectangle {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.union-icon {
+  width: 43px;
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}
+.combined-union {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.trending-questions-rectangle {
+  height: 55px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro);
+  min-width: 327px;
+  max-width: 100%;
+  z-index: 2;
+}
+.a-b-c-frame-set {
+  width: 555px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.union-icon1 {
+  height: 40px;
+  width: 43px;
+  position: relative;
+  z-index: 2;
+}
+.union-vector-child {
+  height: 55px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 359px;
+  z-index: 2;
+}
+.union-vector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.a-b-c-abbreviation-child {
+  height: 43px;
+  width: 138px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.abc4 {
+  position: relative;
+  font-weight: 300;
+  z-index: 3;
+}
+.a-b-c-abbreviation,
+.text-area-child {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro);
+}
+.a-b-c-abbreviation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-36xl) var(--padding-6xs)
+    var(--padding-18xl);
+  z-index: 2;
+}
+.text-area-child {
+  height: 43px;
+  width: 138px;
+  position: relative;
+  display: none;
+}
+.abc5 {
+  position: relative;
+  font-weight: 300;
+  z-index: 3;
+}
+.text-area {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-29xl) var(--padding-4xs)
+    var(--padding-25xl);
+  z-index: 2;
+}
+.a-b-c-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-6xs) 0 0;
+}
+.a-b-c-abbreviation-item {
+  height: 43px;
+  width: 138px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+}
+.abc6 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 300;
+  z-index: 3;
+}
+.a-b-c-abbreviation1 {
+  height: 43px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-29xl) var(--padding-2xs)
+    var(--padding-25xl);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.share-button-frame1 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.input-text-box,
+.share-button-frame1,
+.welcome-message-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-text-box {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.welcome-message-frame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lgi);
+}
+.union-a-b-c-frames,
+.x-y-z-question-mark-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.union-a-b-c-frames {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-52xl);
+}
+.x-y-z-question-mark-icon {
+  width: 642px;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) var(--padding-325xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.type-your-message {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-darkslategray);
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+.type-your-message1 {
+  width: 385px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.icon-share {
+  height: 44px;
+  width: 46px;
+  position: relative;
+  z-index: 3;
+}
+.chatbot-welcome-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-mini)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.input-field-rectangle,
+.what-is-x-y-z-tool-question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.what-is-x-y-z-tool-question {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  color: var(--color-white);
+}
+.input-field-rectangle {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) var(--padding-11xs) var(--padding-base) 0;
+  position: relative;
+  gap: var(--gap-84xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 675px) {
+  .union-vector-child {
+    min-width: 100%;
+  }
+  .chatbot-welcome-frame,
+  .share-button-frame1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .abc4,
+  .abc5,
+  .abc6,
+  .type-your-message1,
+  .welcome-to-xyz {
+    font-size: var(--font-size-lgi);
+  }
+}
